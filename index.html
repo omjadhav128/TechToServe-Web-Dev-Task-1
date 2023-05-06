@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" onclick="openNavbar()">
+            ☰
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Internships</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">
+            ❌
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Internships</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side2">
+            <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y291cnNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+                width="700" height="300">
+        </div>
+        <div class="side1">
+            <h1>TechToServe</h1>
+            <button>
+                <a href="https://www.interncrowd.in/">
+                    Explore More
+                </a>
+            </button>
+        </div>
+
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Python
+                        </a>
+                    </div>
+                    <p>
+                        Python is a computer programming language often used to build websites and software, automate
+                        tasks, and conduct data analysis. Python is a general-purpose language, meaning it can be used
+                        to create a variety of different programs and isn't specialized for any specific problems.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            C++
+                        </a>
+                    </div>
+                    <p>
+                        C++ is an object-oriented programming (OOP) language that is viewed by many as the best language
+                        for creating large-scale applications. C++ is a superset of the C language. A related
+                        programming language, Java, is based on C++ but optimized for the distribution of program
+                        objects in a network such as the Internet.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            DSA
+                        </a>
+                    </div>
+                    <p>
+                        The term DSA stands for Data
+                        Structures and Algorithms. As
+                        the name itself suggests, it
+                        is a combination of two
+                        separate yet interrelated
+                        topics.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            HTML5
+                        </a>
+                    </div>
+                    <p>
+                        HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Javascript
+                        </a>
+                    </div>
+                    <p>
+                        JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            React
+                        </a>
+                    </div>
+                    <p>
+                        React is a declarative, efficient, and flexible JavaScript library for building user interfaces.
+                        It lets you compose complex UIs from small and isolated pieces of code called “components”.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                           
+                            
+                            <a href="https://www.linkedin.com/company/techtoserve/" class="fab fa-linkedin"
+                                target="_blank">Linkedin</a>
+                            
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            TechToServe Is An Online Coding Platform that Offers Specially Programming Courses For
+                            Students. You've Probably Heard About How Programming Shines With New Technology. We Have To
+                            Be Aware Of How Programming Can Initiate New Innovations. What's A Better Approach For Our
+                            Students Is To Grasp And Adapt To The Technology Around Them Thank you for choosing and
+                            supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.linkedin.com/in/om-jadhav-a96868268/" target="_blank">
+                    Om Jadhav
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
